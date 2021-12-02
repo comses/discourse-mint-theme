@@ -5,12 +5,12 @@
 // Fonts
 @font-face {
   font-family: "Montserrat-Medium";
-  src: url("/assets/fonts/Montserrat-Medium.ttf") format("ttf");
+  src: url($montserrat-md) format("ttf");
 }
 
 @font-face {
   font-family: "OpenSans-Light";
-  src: url("/assets/fonts/OpenSans-Light.ttf") format("ttf");
+  src: url($open-sans-light) format("ttf");
 }
 
 // Variables
@@ -33,5 +33,5 @@ $color-square-webkit-gradient: -webkit-linear-gradient(
 );
 
 // Fonts
-$open-sans-light: "OpenSans-Light";
-$montserrat-md: "Montserrat-Medium";
+$font-open-sans: "OpenSans-Light";
+$font-montserrat: "Montserrat-Medium";
