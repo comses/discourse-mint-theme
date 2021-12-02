@@ -1,11 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap");
+
 @mixin border-radius {
   border-radius: 10px;
 }
 
+// Fonts
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("./assets/fonts/Montserrat-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("./assets/fonts/OpenSans-Light.ttf") format("ttf");
+}
+
+// Variables
+
+// Color
 $color-white: #ffffff;
 $color-black: #000000;
 $color-box-shadow: #65a797;
-$color-mint: #75BDAD;
+$color-mint: #75bdad;
 $color-blue: #e5f8ff;
-$color-square-gradient: linear-gradient(4deg, rgba(143,236,202,.29) 55%, rgba(74, 247, 255, 0.08) 100%);
-$color-square-webkit-gradient: -webkit-linear-gradient(4deg, rgba(143,236,202,.29) 55%, rgba(74, 247, 255, 0.08) 100%);
+$color-square-gradient: linear-gradient(
+  4deg,
+  rgba(143, 236, 202, 0.29) 55%,
+  rgba(74, 247, 255, 0.08) 100%
+);
+$color-square-webkit-gradient: -webkit-linear-gradient(
+  4deg,
+  rgba(143, 236, 202, 0.29) 55%,
+  rgba(74, 247, 255, 0.08) 100%
+);
+
+// Fonts
+$open-sans-light: "OpenSans-Light";
+$montserrat-md: "Monstserrat-Medium";
