@@ -4,7 +4,7 @@
   "license_url": null,
   "assets": {
     "montserrat-md": "assets/fonts/Montserrat-Medium.ttf",
-    "opensans-light": "assets/fonts/OpenSans-Light.ttf"
+    "open-sans-light": "assets/fonts/OpenSans-Light.ttf"
   },
   "color_schemes": {
     "mint": {
