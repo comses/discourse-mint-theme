@@ -43,8 +43,16 @@ input[type="color"]:focus,
   outline: none;
 }
 
-.d-header {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $montserrat-md;
+}
+
+.d-header {
   height: 5em;
   box-shadow: none;
 }
