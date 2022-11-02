@@ -79,6 +79,9 @@ p {
     .header-wrapper {
       color: var(--primary);
       background-color: transparent;
+      a h2 {
+        color: var(--primary);
+      }
       .btn-primary {
         display: none;
       }
