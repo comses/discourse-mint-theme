@@ -32,3 +32,8 @@ h1, h2, h3, h4 {
     text-decoration: underline;
   }
 }
+
+// use custom search banner image instead of theme setting
+.custom-search-banner-wrap {
+  background: none;
+}

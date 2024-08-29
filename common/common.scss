@@ -1,7 +1,6 @@
 @import "variables";
 @import "sidebar";
 @import "chat";
-@import "custom";
 
 .d-editor-textarea-wrapper,
 .select-kit-header {
@@ -390,3 +389,5 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     display: flex;
   }
 }
+
+@import "custom";
